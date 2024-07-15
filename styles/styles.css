@@ -81,13 +81,13 @@ p {
 }
 
 .section-title .title {
-  font-size: 45px;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: normal;
 }
 
 .section-title .section-desc {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
 }
@@ -226,10 +226,7 @@ nav > ul > li > a {
 }
 
 .card-item h3 {
-  color: var(--Dark-01, #131313);
-  font-family: "Work Sans";
-  font-size: 20px;
-  font-style: normal;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: normal;
 }
@@ -273,4 +270,58 @@ nav > ul > li > a {
 .featured-absolute-card h2 span {
   font-size: 1.4rem;
   font-weight: 400;
+}
+/* counter section styles */
+.counter-content {
+  margin-top: 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.counter-item {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 60px;
+  text-align: center;
+  width: 25%;
+}
+.counter-badge img {
+  width: 45px;
+  height: 45px;
+}
+.counter-number h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.counter-name p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.clients-content .section-title {
+  width: 100%;
+}
+.clients-img-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.client-item img {
+  filter: grayscale(100%);
+  width: 100%;
+}
+/* footer styles */
+footer {
+  margin-bottom: 50px;
+}
+footer > section {
+  padding: 40px 0;
+  border-radius: 8px;
+}
+.copyright-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: normal;
 }

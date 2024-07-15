@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  color: #272727;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #272727;
+  font-family: "Work Sans", sans-serif;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0 solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common css styles */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+.pt-0 {
+  padding-top: 0;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.m-auto {
+  margin: 0 auto;
+}
+.section-title {
+  width: 586px;
+}
+
+.section-title .title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-title .section-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.text-dark-gray {
+  color: #131313;
+}
+.text-medium-gray {
+  color: #424242;
+}
+.text-light-gray {
+  color: #727272;
+}
+.text-primary {
+  color: #ff900e;
+}
+.text-center {
+  text-align: center;
+}
+.bg-primary {
+  background-color: #fff4e7;
+}
+.btn {
+  border-radius: 8px;
+  border: 0;
+  padding: 20px 25px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #ff900e;
+}
+.flex {
+  display: flex;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.navbar {
+  padding: 50px 0;
+}
+nav > ul > li > a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.logo h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner-img img {
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+}
+.banner-text {
+  padding-bottom: 50px;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.banner-text h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.banner-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
